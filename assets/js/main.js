@@ -49,65 +49,43 @@
   setInterval(function(){ go(index+1); }, 6000);
 })();
 
-// Timeline Tabs
+// Partners carousel animations
 (function(){
-  var timeline = document.querySelector('[data-timeline]');
-  if(!timeline) return;
-
-  var tabs = timeline.querySelectorAll('[data-tab]');
-  var contents = timeline.querySelectorAll('[data-tab-content]');
-
-  tabs.forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      var tabId = this.getAttribute('data-tab');
-
-      // Deactivate all tabs
-      tabs.forEach(function(t) {
-        t.classList.remove('is-active');
-      });
-
-      // Deactivate all contents
-      contents.forEach(function(c) {
-        c.classList.add('hidden');
-        c.classList.remove('is-active');
-      });
-
-      // Activate clicked tab
-      this.classList.add('is-active');
-
-      // Activate corresponding content
-      var content = timeline.querySelector('[data-tab-content="' + tabId + '"]');
-      if (content) {
-        content.classList.remove('hidden');
-        content.classList.add('is-active');
-      }
-    });
-  });
-})();
-
-// Calculator
-(function(){
-  var calculator = document.querySelector('[data-calculator]');
-  if(!calculator) return;
-
-  var amountInput = calculator.querySelector('[data-calc-input="amount"]');
-  var termInput = calculator.querySelector('[data-calc-input="term"]');
-  var profitOutput = calculator.querySelector('[data-calc-output="profit"]');
-
-  function calculate() {
-    var amount = parseFloat(amountInput.value) || 0;
-    var term = parseFloat(termInput.value) || 0;
-    // Simple profit calculation: Amount * (Term / 12) * 30% annual interest
-    var profit = amount * (term / 12) * 0.3;
+  // Add CSS animations for partner carousels
+  var style = document.createElement('style');
+  style.textContent = `
+    .animate-scroll-right-to-left {
+      animation: scroll-right-to-left 20s linear infinite;
+    }
+    .animate-scroll-left-to-right {
+      animation: scroll-left-to-right 20s linear infinite;
+    }
     
-    profitOutput.textContent = 'IDR ' + new Intl.NumberFormat('id-ID').format(profit.toFixed(0));
-  }
-
-  amountInput.addEventListener('input', calculate);
-  termInput.addEventListener('change', calculate);
-
-  // Initial calculation
-  calculate();
+    @keyframes scroll-right-to-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    
+    @keyframes scroll-left-to-right {
+      0% {
+        transform: translateX(-50%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    /* Pause animation on hover */
+    .animate-scroll-right-to-left:hover,
+    .animate-scroll-left-to-right:hover {
+      animation-play-state: paused;
+    }
+  `;
+  document.head.appendChild(style);
 })();
 
 

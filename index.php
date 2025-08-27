@@ -76,7 +76,7 @@
   <section class="py-18 md:py-20 text-white" style="background:linear-gradient(135deg,#ffb347 0%,#ff8a00 40%,#ff6a00 100%)">
     <div class="max-w-[1160px] mx-auto px-4 grid md:grid-cols-2 gap-9 items-start">
       <div>
-        <h2 class="text-5xl font-extrabold mb-3">How We Work?</h2>
+      <h2 class="text-4xl font-bold">How We Work?</h2>
         <p class="text-white/90 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="rounded-2xl overflow-hidden shadow-2xl max-w-full">
           <div class="relative pt-[56%]">
@@ -102,35 +102,35 @@
   </section>
 
   <!-- Impact -->
-  <section class="py-18 md:py-20">
-    <div class="max-w-[1160px] mx-auto px-4 grid md:grid-cols-2 gap-10 items-center relative">
-      <div>
-        <h2 class="text-4xl md:text-5xl font-bold mb-6"><span class="text-brand italic font-extrabold">Our</span> Impact</h2>
+  <section class="overflow-hidden">
+    <div class="grid md:grid-cols-2 items-center">
+      <div class="max-w-[580px] mx-auto px-4 py-10">
+        <h2 class="text-4xl font-bold mb-6"><span class="text-brand italic font-extrabold">Our</span> Impact</h2>
         <div class="space-y-8">
           <div>
-            <div class="text-2xl md:text-3xl font-extrabold">30% - 50%</div>
+            <div class="text-2xl md:text-3xl font-bold">30% - 50%</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Increased income of oil palm farmers</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-extrabold">300+</div>
+            <div class="text-2xl md:text-3xl font-bold">300+</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Women Empowerment</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-extrabold">600 Tons</div>
+            <div class="text-2xl md:text-3xl font-bold">600 Tons</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Potential carbon sequestration that could become future income stream for farmers</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-extrabold">100+ Ha</div>
+            <div class="text-2xl md:text-3xl font-bold">100+ Ha</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Land access provided to landless farmers</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-extrabold">IDR 3 Billion</div>
+            <div class="text-2xl md:text-3xl font-bold">IDR 3 Billion</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Total cost savings for oil palm landowners</div>
           </div>
         </div>
       </div>
-      <div class="relative">
-        <img src="assets/img/petani-2.png" alt="Farmer woman" class="relative z-10 w-full h-auto object-contain" />
+      <div class="relative ml-[230px]">
+        <img src="assets/img/petani-2.png" alt="Farmer woman" class="w-full h-auto object-cover" />
       </div>
     </div>
   </section>
@@ -139,12 +139,12 @@
   <section class="relative py-18 md:py-20 text-white overflow-hidden">
     <video class="absolute inset-0 w-full h-full object-cover" src="assets/video/backmap-1.mp4" autoplay loop muted playsinline></video>
     <div class="absolute inset-0 bg-black/35"></div>
-    <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-orange-500/70 to-transparent"></div>
+    <div class="absolute inset-x-0 bottom-0 h-[70%] md:h-[60%] bg-gradient-to-t from-orange-500/70 to-transparent"></div>
     <div class="relative max-w-[1160px] mx-auto px-4">
       <h2 class="text-4xl font-bold text-center">Since 2021</h2>
       <p class="text-center text-white/90">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="my-6 text-center">
-        <img src="assets/img/map-id.png" alt="Indonesia map" class="mx-auto max-w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]" />
+        <img src="assets/img/map-idi.png" alt="Indonesia map" class="mx-auto max-w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]" />
       </div>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="text-center">
@@ -222,36 +222,41 @@
 
   <!-- Team -->
   <section class="py-18 md:py-20 relative" style="background:linear-gradient(180deg,#ff8a00 0%,#ffb347 100%)">
-    <div class="max-w-[1160px] mx-auto px-4 grid lg:grid-cols-2 gap-10 items-start text-white">
-      <div class="mt-[120px]">
-        <h2 class="text-4xl font-bold">Meet Our Team</h2>
-        <p class="text-white/90 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <!-- Card 1 -->
-        <div class="text-center">
-              <img class="w-full h-72 object-cover" src="assets/img/ceo-pp.png" alt="CEO" />
-          <h4 class="mt-4 mb-0 font-semibold">Jusrian S. Orpayanda</h4>
-          <span class="block text-white/80">Chief Executive Officer</span>
+    <div class="max-w-[1160px] mx-auto px-4 text-white">
+      <div class="grid lg:grid-cols-4 gap-6 items-start">
+        <!-- Text Content - Left Side -->
+        <div class="lg:col-span-1 mt-[60px]">
+          <h2 class="text-4xl font-bold">Meet Our Team</h2>
+          <p class="text-white/90 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <!-- Card 2 -->
-        <div class="text-center">
-              <img class="w-full h-72 object-cover" src="assets/img/coo-pp.png" alt="COO" />
-          <h4 class="mt-4 mb-0 font-semibold">Muhammad Alfian</h4>
-          <span class="block text-white/80">Chief Operating Officer</span>
-        </div>
-        <!-- Card 3 -->
-        <div class="text-center">
-              <img class="w-full h-72 object-cover" src="assets/img/cto-pp.jpg" alt="CTO" />
-          <h4 class="mt-4 mb-0 font-semibold">Robbie Shugara</h4>
-          <span class="block text-white/80">Chief Technology Officer</span>
+        
+        <!-- Team Cards - Right Side (3 columns) -->
+        <div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div class="text-center">
+            <img class="w-full h-72 object-cover" src="assets/img/ceo-pp.png" alt="CEO" />
+            <h4 class="mt-4 mb-0 font-semibold">Jusrian S. Orpayanda</h4>
+            <span class="block text-white/80">Chief Executive Officer</span>
+          </div>
+          <!-- Card 2 -->
+          <div class="text-center">
+            <img class="w-full h-72 object-cover" src="assets/img/coo-pp.png" alt="COO" />
+            <h4 class="mt-4 mb-0 font-semibold">Muhammad Alfian</h4>
+            <span class="block text-white/80">Chief Operating Officer</span>
+          </div>
+          <!-- Card 3 -->
+          <div class="text-center">
+            <img class="w-full h-72 object-cover" src="assets/img/cto-pp.jpg" alt="CTO" />
+            <h4 class="mt-4 mb-0 font-semibold">Robbie Shugara</h4>
+            <span class="block text-white/80">Chief Technology Officer</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Achievements -->
-  <section class="py-18 md:py-20 bg-gradient-to-b from-white to-orange-100/40">
+  <section class="py-18 md:py-20">
     <div class="max-w-[1160px] mx-auto px-4">
       <div class="text-center mb-6">
         <h2 class="text-4xl font-bold"><span class="text-brand italic font-extrabold">Our</span> Achievements</h2>
@@ -279,24 +284,80 @@
   </section>
 
   <!-- Partners -->
-  <section class="section section-partners" id="partners">
-    <div class="container">
-      <div class="section-head">
-        <h3 class="eyebrow">Our</h3>
-        <h2 class="title">Partners</h2>
-      </div>
-      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-4 items-center">
-        <img src="assets/img/partner-1.png" alt="Partner" />
-        <img src="assets/img/partner-2.png" alt="Partner" />
-        <img src="assets/img/partner-3.png" alt="Partner" />
-        <img src="assets/img/partner-4.png" alt="Partner" />
-        <img src="assets/img/partner-5.png" alt="Partner" />
-        <img src="assets/img/partner-6.png" alt="Partner" />
-        <img src="assets/img/partner-7.png" alt="Partner" />
-        <img src="assets/img/partner-8.png" alt="Partner" />
-      </div>
-      <div class="text-center mt-4">
-        <a href="#contact" class="inline-flex items-center rounded-full bg-brand text-white font-semibold px-5 py-3 shadow">Connect Now</a>
+  <section class="py-18 md:py-20" id="partners">
+    <div class="max-w-[1160px] mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <!-- Left side - Partner logos carousel -->
+        <div class="order-2 lg:order-1">
+          <div class="space-y-8 overflow-hidden">
+            <!-- Row 1 - Kanan ke Kiri -->
+            <div class="relative overflow-hidden">
+              <div class="flex gap-8 items-center animate-scroll-right-to-left will-change-transform">
+                <img src="assets/img/favicon.png" alt="YaraMila" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Syngenta" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 3" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Agros" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="AMI" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 6" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <!-- Duplicate for seamless loop -->
+                <img src="assets/img/favicon.png" alt="YaraMila" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Syngenta" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 3" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Agros" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="AMI" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 6" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+              </div>
+            </div>
+            
+            <!-- Row 2 - Kiri ke Kanan -->
+            <div class="relative overflow-hidden">
+              <div class="flex gap-8 items-center animate-scroll-left-to-right will-change-transform">
+                <img src="assets/img/favicon.png" alt="Angin" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Supernova" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="PUSA" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="DB" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Pitma" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 12" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <!-- Duplicate for seamless loop -->
+                <img src="assets/img/favicon.png" alt="Angin" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Supernova" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="PUSA" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="DB" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Pitma" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 12" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+              </div>
+            </div>
+            
+            <!-- Row 3 - Kanan ke Kiri -->
+            <div class="relative overflow-hidden">
+              <div class="flex gap-8 items-center animate-scroll-right-to-left will-change-transform">
+                <img src="assets/img/favicon.png" alt="KoKoTi" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="New Energy Nexus" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="COMTEC" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 16" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="QA Central" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 18" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <!-- Duplicate for seamless loop -->
+                <img src="assets/img/favicon.png" alt="KoKoTi" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="New Energy Nexus" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="COMTEC" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 16" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="QA Central" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+                <img src="assets/img/favicon.png" alt="Partner 18" class="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity flex-shrink-0" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right side - Text content -->
+        <div class="order-1 lg:order-2">
+          <h2 class="text-4xl font-bold mb-6">Our <span class="text-brand italic font-extrabold">Partners</span></h2>
+          <p class="text-slate-600 mb-8 text-lg leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#contact" class="inline-flex items-center rounded-full bg-brand hover:bg-orange-600 text-white font-semibold px-6 py-3 shadow-lg transition-colors">
+            <span class="mr-2">📧</span>
+            Connect Now
+          </a>
+        </div>
       </div>
     </div>
   </section>

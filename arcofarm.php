@@ -7,7 +7,10 @@
   <section class="relative h-[40vh] min-h-[320px] bg-cover bg-center text-white" style="background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('assets/img/banner/banner-arcofarm.png')">
     <div class="max-w-[1160px] mx-auto px-4 h-full flex flex-col justify-center">
       <h1 class="text-5xl md:text-6xl font-extrabold">ArcoFarm</h1>
-      <p class="text-xl text-white/90">Empowering young, passionate farmers with salaries, training, and risk-free farming opportunities.</p>
+      <p class="text-xl text-white/90 mb-6">Empowering young, passionate farmers with salaries, training, and risk-free farming opportunities.</p>
+      <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-4 py-2 shadow-lg transition-all duration-300 transform hover:scale-105">
+        Jadi Petani Sekarang
+      </a>
     </div>
   </section>
 
