@@ -8,9 +8,11 @@
     <div class="max-w-[1160px] mx-auto px-4 h-full flex flex-col justify-center">
       <h1 class="text-5xl md:text-6xl font-extrabold">ArcoFarm</h1>
       <p class="text-xl text-white/90 mb-6">Empowering young, passionate farmers with salaries, training, and risk-free farming opportunities.</p>
-      <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-4 py-2 shadow-lg transition-all duration-300 transform hover:scale-105">
-        Jadi Petani Sekarang
-      </a>
+      <div class="mt-4">
+        <a href="login.php">
+          <img src="assets/img/jadi-petani.png" alt="Jadi Petani" class="h-16 hover:scale-105 transition-transform duration-300 cursor-pointer" />
+        </a>
+      </div>
     </div>
   </section>
 

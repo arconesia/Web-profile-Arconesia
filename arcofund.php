@@ -6,6 +6,11 @@
     <div class="max-w-[1160px] mx-auto px-4 h-full flex flex-col justify-center">
       <h1 class="text-5xl md:text-6xl font-extrabold">ArcoFund</h1>
       <p class="text-xl text-white/90">Memberikan petani akses ke pembiayaan, dukungan teknis, dan pasar yang terjamin.</p>
+      <div class="mt-4">
+        <a href="login.php">
+          <img src="assets/img/daftar-pendanaan.png" alt="Jadi Petani" class="h-16 hover:scale-105 transition-transform duration-300 cursor-pointer" />
+        </a>
+      </div>
     </div>
   </section>
 

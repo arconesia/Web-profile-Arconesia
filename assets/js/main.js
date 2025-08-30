@@ -79,9 +79,23 @@
       }
     }
     
+    .animate-scroll-x {
+      animation: scroll-x 30s linear infinite;
+    }
+    
+    @keyframes scroll-x {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+    
       /* Pause animation on hover */
   .animate-scroll-right-to-left:hover,
-  .animate-scroll-left-to-right:hover {
+  .animate-scroll-left-to-right:hover,
+  .animate-scroll-x:hover {
     animation-play-state: paused;
   }
   `;

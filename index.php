@@ -10,10 +10,6 @@
         <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center text-center">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-3">Expanding Yields, <span class="text-yellow-300">Without</span> Expanding Land</h1>
           <p class="mb-6">Climate-Smart Intercropping for Sustainable Oil Palm</p>
-          <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-6 py-3 shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto">
-            <span class="mr-2">📧</span>
-            Connect Now
-          </a>
           <!-- Hero indicator dots -->
           <div class="flex justify-center gap-3 mt-8">
             <div class="w-3 h-3 rounded-full bg-white"></div>
@@ -26,10 +22,6 @@
         <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center text-center">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-3">Empowering Smallholders</h1>
           <p class="mb-6">Training, financing, and market access</p>
-          <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-6 py-3 shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto">
-            <span class="mr-2">📧</span>
-            Connect Now
-          </a>
           <!-- Hero indicator dots -->
           <div class="flex justify-center gap-3 mt-8">
             <div class="w-3 h-3 rounded-full bg-white/50"></div>
@@ -42,10 +34,6 @@
         <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center text-center">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-3">Data-driven Farm Management</h1>
           <p class="mb-6">Optimize inputs and outcomes</p>
-          <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-6 py-3 shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto">
-            <span class="mr-2">📧</span>
-            Connect Now
-          </a>
           <!-- Hero indicator dots -->
           <div class="flex justify-center gap-3 mt-8">
             <div class="w-3 h-3 rounded-full bg-white/50"></div>
@@ -106,7 +94,7 @@
         <p class="text-white/90 mb-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="rounded-2xl overflow-hidden shadow-2xl max-w-full">
           <div class="relative pt-[56%]">
-            <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Arconesia's Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/47Dv9x7utYI" title="Arconesia's Profile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -171,22 +159,29 @@
       <h2 class="text-4xl font-bold text-center">Since 2021</h2>
       <p class="text-center text-white/90">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="my-6 text-center">
-        <img src="assets/img/map-idi.png" alt="Indonesia map" class="mx-auto w-[800px] h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]" />
+        <img src="assets/img/idn-map.png" alt="Indonesia map" class="mx-auto w-[900px] h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]" />
       </div>
       <div class="grid md:grid-cols-3 gap-6">
-        <div class="text-center">
-          <div class="text-2xl font-bold" data-counter="250" data-suffix="+">0</div>
-          <div class="text-white/90 text-sm">Small farmers</div>
-        </div>
-        <div class="text-center">
-          <div class="text-2xl font-bold">
-            <span data-counter="8000" data-suffix="">0</span>+ ha
+        <div class="flex items-center justify-center gap-4">
+          <img src="assets/img/small-farmer.png" alt="Small farmer icon" class="h-auto w-[50px] object-contain" />
+          <div class="text-center">
+            <div class="text-2xl font-bold" data-counter="250" data-suffix="+">0</div>
+            <div class="text-white/90 text-sm">Small farmers</div>
           </div>
-          <div class="text-white/90 text-sm">In the pipelines</div>
         </div>
-        <div class="text-center">
-          <div class="text-2xl font-bold" data-counter="6" data-suffix=" Billions" data-prefix="IDR ">0</div>
-          <div class="text-white/90 text-sm">Total disbursement to farmers</div>
+        <div class="flex items-center justify-center gap-4">
+          <img src="assets/img/pipelines.png" alt="Small farmer icon" class="h-auto w-[50px] object-contain" />
+          <div class="text-center">
+            <div class="text-2xl font-bold" data-counter="8000" data-suffix="+ ha">0</div>
+            <div class="text-white/90 text-sm">In the pipelines</div>
+          </div>
+        </div>
+        <div class="flex items-center justify-center gap-4">
+          <img src="assets/img/disbursement.png" alt="Small farmer icon" class="h-auto w-[50px] object-contain" />
+          <div class="text-center">
+            <div class="text-2xl font-bold" data-counter="6" data-suffix=".2 Billion">0</div>
+            <div class="text-white/90 text-sm">Total disbursement to farmers</div>
+          </div>
         </div>
       </div>
     </div>
@@ -203,38 +198,214 @@
         </div>
       </div>
       
-      <!-- Right Column - Farm Background with Testimonial -->
+      <!-- Right Column - Farm Background with Moving Testimonials -->
       <div class="relative" style="background-image:url('assets/img/farm-1.png'); background-size:cover; background-position:center;">
         <div class="absolute inset-0 bg-black/20"></div>
         <div class="relative h-full flex items-center justify-center p-8">
-          <!-- Testimonial Card -->
-          <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 max-w-md w-full border border-white/30">
-            <!-- Profile Section -->
-            <div class="flex items-center gap-4 mb-6">
-              <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/petani-pp.png" alt="Pak Johan" />
-              <div>
-                <div class="font-semibold text-white text-lg">Pak Johan</div>
-                <div class="text-white/80">Lahan Seluma 1</div>
+          <!-- Moving Testimonials Container -->
+          <div class="relative overflow-hidden max-w-md w-full">
+            <div class="flex gap-8 animate-scroll-x will-change-transform">
+              <!-- Testimonial 1 -->
+              <div class="max-w-md w-full shrink-0">
+                <!-- Profile Section (Outside box) -->
+                <div class="flex items-center gap-4 mb-4">
+                  <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/petani-pp.png" alt="Pak Johan" />
+                  <div>
+                    <div class="font-semibold text-white text-lg">Pak Johan</div>
+                    <div class="text-white/80">Lahan Seluma 1</div>
+                  </div>
+                </div>
+                
+                <!-- Testimonial Box -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 border border-white/30 min-h-[400px] flex flex-col">
+                  <!-- Quote Icon -->
+                  <div class="text-5xl text-white/60 mb-4">"</div>
+                  
+                  <!-- Main Quote -->
+                  <blockquote class="text-2xl font-bold text-white mb-4">
+                    Alhamdulillah saya jadi kaya
+                  </blockquote>
+                  
+                  <!-- Description -->
+                  <p class="text-white/90 leading-relaxed">Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+                  
+                  <!-- Read More Button -->
+                  <div class="text-right mt-auto">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
+                      Read More
+                      <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-            
-            <!-- Quote Icon -->
-            <div class="text-5xl text-white/60 mb-4">"</div>
-            
-            <!-- Main Quote -->
-            <blockquote class="text-2xl font-bold text-white mb-4">
-              Alhamdulillah saya jadi kaya
-            </blockquote>
-            
-            <!-- Description -->
-            <p class="text-white/90 mb-6 leading-relaxed">Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
-            
-            <!-- Read More Button -->
-            <div class="text-right">
-              <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
-                Read More
-                <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
-              </a>
+
+              <!-- Testimonial 2 -->
+              <div class="max-w-md w-full shrink-0">
+                <!-- Profile Section (Outside box) -->
+                <div class="flex items-center gap-4 mb-4">
+                  <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/ceo-pp.png" alt="Bapak Yanda" />
+                  <div>
+                    <div class="font-semibold text-white text-lg">Bapak Yanda</div>
+                    <div class="text-white/80">Lahan Bengkulu</div>
+                  </div>
+                </div>
+                
+                <!-- Testimonial Box -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 border border-white/30 min-h-[400px] flex flex-col">
+                  <!-- Quote Icon -->
+                  <div class="text-5xl text-white/60 mb-4">"</div>
+                  
+                  <!-- Main Quote -->
+                  <blockquote class="text-2xl font-bold text-white mb-4">
+                    Programnya sangat membantu!
+                  </blockquote>
+                  
+                  <!-- Description -->
+                  <p class="text-white/90 leading-relaxed">Praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+                  
+                  <!-- Read More Button -->
+                  <div class="text-right mt-auto">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
+                      Read More
+                      <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="max-w-md w-full shrink-0">
+                <!-- Profile Section (Outside box) -->
+                <div class="flex items-center gap-4 mb-4">
+                  <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/coo-pp.png" alt="Bapak Budi" />
+                  <div>
+                    <div class="font-semibold text-white text-lg">Bapak Budi</div>
+                    <div class="text-white/80">Lahan Jambi</div>
+                  </div>
+                </div>
+                
+                <!-- Testimonial Box -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 border border-white/30 min-h-[400px] flex flex-col">
+                  <!-- Quote Icon -->
+                  <div class="text-5xl text-white/60 mb-4">"</div>
+                  
+                  <!-- Main Quote -->
+                  <blockquote class="text-2xl font-bold text-white mb-4">
+                    Hasil panen saya meningkat
+                  </blockquote>
+                  
+                  <!-- Description -->
+                  <p class="text-white/90 leading-relaxed">Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at ligula reet est iaculis.</p>
+                  
+                  <!-- Read More Button -->
+                  <div class="text-right mt-auto">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
+                      Read More
+                      <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Duplicates for seamless loop -->
+              <div class="max-w-md w-full shrink-0">
+                <!-- Profile Section (Outside box) -->
+                <div class="flex items-center gap-4 mb-4">
+                  <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/petani-pp.png" alt="Pak Johan" />
+                  <div>
+                    <div class="font-semibold text-white text-lg">Pak Johan</div>
+                    <div class="text-white/80">Lahan Seluma 1</div>
+                  </div>
+                </div>
+                
+                <!-- Testimonial Box -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 border border-white/30 min-h-[400px] flex flex-col">
+                  <!-- Quote Icon -->
+                  <div class="text-5xl text-white/60 mb-4">"</div>
+                  
+                  <!-- Main Quote -->
+                  <blockquote class="text-2xl font-bold text-white mb-4">
+                    Alhamdulillah saya jadi kaya
+                  </blockquote>
+                  
+                  <!-- Description -->
+                  <p class="text-white/90 leading-relaxed">Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+                  
+                  <!-- Read More Button -->
+                  <div class="text-right mt-auto">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
+                      Read More
+                      <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="max-w-md w-full shrink-0">
+                <!-- Profile Section (Outside box) -->
+                <div class="flex items-center gap-4 mb-4">
+                  <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/ceo-pp.png" alt="Bapak Yanda" />
+                  <div>
+                    <div class="font-semibold text-white text-lg">Bapak Yanda</div>
+                    <div class="text-white/80">Lahan Bengkulu</div>
+                  </div>
+                </div>
+                
+                <!-- Testimonial Box -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 border border-white/30 min-h-[400px] flex flex-col">
+                  <!-- Quote Icon -->
+                  <div class="text-5xl text-white/60 mb-4">"</div>
+                  
+                  <!-- Main Quote -->
+                  <blockquote class="text-2xl font-bold text-white mb-4">
+                    Programnya sangat membantu!
+                  </blockquote>
+                  
+                  <!-- Description -->
+                  <p class="text-white/90 leading-relaxed">Praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+                  
+                  <!-- Read More Button -->
+                  <div class="text-right mt-auto">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
+                      Read More
+                      <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="max-w-md w-full shrink-0">
+                <!-- Profile Section (Outside box) -->
+                <div class="flex items-center gap-4 mb-4">
+                  <img class="w-14 h-14 rounded-full object-cover border-2 border-white/30" src="assets/img/coo-pp.png" alt="Bapak Budi" />
+                  <div>
+                    <div class="font-semibold text-white text-lg">Bapak Budi</div>
+                    <div class="text-white/80">Lahan Jambi</div>
+                  </div>
+                </div>
+                
+                <!-- Testimonial Box -->
+                <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-8 border border-white/30 min-h-[400px] flex flex-col">
+                  <!-- Quote Icon -->
+                  <div class="text-5xl text-white/60 mb-4">"</div>
+                  
+                  <!-- Main Quote -->
+                  <blockquote class="text-2xl font-bold text-white mb-4">
+                    Hasil panen saya meningkat
+                  </blockquote>
+                  
+                  <!-- Description -->
+                  <p class="text-white/90 leading-relaxed">Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at ligula reet est iaculis.</p>
+                  
+                  <!-- Read More Button -->
+                  <div class="text-right mt-auto">
+                    <a href="#" class="inline-flex items-center gap-2 rounded-full bg-white/20 hover:bg-white/30 text-white px-5 py-3 font-semibold border border-white/30 transition-colors backdrop-blur-sm">
+                      Read More
+                      <span class="w-6 h-6 rounded-full bg-white/20 text-white grid place-items-center text-xs">→</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -291,22 +462,88 @@
         <h2 class="text-4xl font-bold"><span class="text-brand italic font-extrabold">Our</span> Achievements</h2>
         <p class="text-slate-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
-      <!-- Infinite marquee logos -->
+      <!-- Infinite marquee logos with descriptions -->
       <div class="relative overflow-hidden">
-        <div class="flex gap-10 items-center animate-scroll-x will-change-transform">
-          <img src="assets/img/award/award-1.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-2.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-3.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-4.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-5.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-6.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-1.png" class="h-20 object-contain opacity-90" alt="award" />
-          <!-- duplicate for seamless loop -->
-          <img src="assets/img/award/award-2.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-3.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-4.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-5.png" class="h-20 object-contain opacity-90" alt="award" />
-          <img src="assets/img/award/award-6.png" class="h-20 object-contain opacity-90" alt="award" />
+        <div class="flex gap-10 items-start animate-scroll-x will-change-transform">
+          <!-- Award 1 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-1.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Milano Digital Week 2021" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 global call for ideas in Milano Digital Week 2021</p>
+          </div>
+          <!-- Award 2 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-2.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="BUMN Foundation Award" />
+            <p class="text-xs text-slate-600 leading-tight">The Most Favourite Social Enterprise of the 'Pikiran Terbaik Negeri' Program by BUMN Foundation</p>
+          </div>
+          <!-- Award 3 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-3.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Milano Digital Week 2021" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 global call for ideas in Milano Digital Week 2021</p>
+          </div>
+          <!-- Award 4 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-4.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Innovation Fair 2022" />
+            <p class="text-xs text-slate-600 leading-tight">1st Winner of Innovation Fair 2022</p>
+          </div>
+          <!-- Award 5 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-5.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="SustainPalm Project" />
+            <p class="text-xs text-slate-600 leading-tight">Key Implementer of the SustainPalm Project</p>
+          </div>
+          <!-- Award 6 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-6.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="LEAF Project" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 of LEAF Project – (JICA, DI Vietnam and ANGIN)</p>
+          </div>
+          
+          <!-- Duplicate awards for seamless loop -->
+          <!-- Award 1 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-1.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Milano Digital Week 2021" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 global call for ideas in Milano Digital Week 2021</p>
+          </div>
+          <!-- Award 2 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-2.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="BUMN Foundation Award" />
+            <p class="text-xs text-slate-600 leading-tight">The Most Favourite Social Enterprise of the 'Pikiran Terbaik Negeri' Program by BUMN Foundation</p>
+          </div>
+          <!-- Award 3 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-3.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Milano Digital Week 2021" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 global call for ideas in Milano Digital Week 2021</p>
+          </div>
+          <!-- Award 4 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-4.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Innovation Fair 2022" />
+            <p class="text-xs text-slate-600 leading-tight">1st Winner of Innovation Fair 2022</p>
+          </div>
+          <!-- Award 5 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-5.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="SustainPalm Project" />
+            <p class="text-xs text-slate-600 leading-tight">Key Implementer of the SustainPalm Project</p>
+          </div>
+          <!-- Award 6 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-6.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="LEAF Project" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 of LEAF Project – (JICA, DI Vietnam and ANGIN)</p>
+          </div>
+          
+          <!-- Additional duplicates for smooth scrolling -->
+          <!-- Award 1 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-1.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Milano Digital Week 2021" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 global call for ideas in Milano Digital Week 2021</p>
+          </div>
+          <!-- Award 2 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-2.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="BUMN Foundation Award" />
+            <p class="text-xs text-slate-600 leading-tight">The Most Favourite Social Enterprise of the 'Pikiran Terbaik Negeri' Program by BUMN Foundation</p>
+          </div>
+          <!-- Award 3 -->
+          <div class="flex-shrink-0 text-center max-w-[200px]">
+            <img src="assets/img/award/award-3.png" class="h-24 object-contain opacity-90 mx-auto mb-3" alt="Milano Digital Week 2021" />
+            <p class="text-xs text-slate-600 leading-tight">Top 3 global call for ideas in Milano Digital Week 2021</p>
+          </div>
         </div>
       </div>
     </div>
@@ -382,10 +619,7 @@
         <div class="order-1 lg:order-2">
           <h2 class="text-4xl font-bold mb-6">Our <span class="text-brand italic font-extrabold">Partners</span></h2>
           <p class="text-slate-600 mb-8 text-lg leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#contact" class="inline-flex items-center rounded-full bg-brand hover:bg-orange-600 text-white font-semibold px-6 py-3 shadow-lg transition-colors">
-            <span class="mr-2">📧</span>
-            Connect Now
-          </a>
+          <img src="<?=$baseUrl?>/assets/img/connect-now.png" alt="Connect Now" class="h-12" />
       </div>
       </div>
     </div>
