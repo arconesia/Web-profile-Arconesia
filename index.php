@@ -7,24 +7,51 @@
   <section class="relative">
     <div class="relative h-[76vh] min-h-[640px] overflow-hidden" data-slider>
       <div class="absolute inset-0 bg-center bg-cover opacity-0 transition-opacity duration-500 is-active" style="background-image:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('assets/img/hero.png')" >
-        <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center">
+        <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center text-center">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-3">Expanding Yields, <span class="text-yellow-300">Without</span> Expanding Land</h1>
           <p class="mb-6">Climate-Smart Intercropping for Sustainable Oil Palm</p>
-          <a href="#contact" class="inline-flex items-center rounded-full bg-brand text-white font-semibold px-5 py-3 shadow">Connect Now</a>
+          <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-6 py-3 shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto">
+            <span class="mr-2">📧</span>
+            Connect Now
+          </a>
+          <!-- Hero indicator dots -->
+          <div class="flex justify-center gap-3 mt-8">
+            <div class="w-3 h-3 rounded-full bg-white"></div>
+            <div class="w-3 h-3 rounded-full bg-white/50"></div>
+            <div class="w-3 h-3 rounded-full bg-white/50"></div>
+          </div>
         </div>
       </div>
       <div class="absolute inset-0 bg-center bg-cover opacity-0 transition-opacity duration-500" style="background-image:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('assets/img/hero.png')">
-        <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center">
+        <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center text-center">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-3">Empowering Smallholders</h1>
           <p class="mb-6">Training, financing, and market access</p>
-          <a href="#services" class="inline-flex items-center rounded-full bg-brand text-white font-semibold px-5 py-3 shadow">Learn More</a>
+          <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-6 py-3 shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto">
+            <span class="mr-2">📧</span>
+            Connect Now
+          </a>
+          <!-- Hero indicator dots -->
+          <div class="flex justify-center gap-3 mt-8">
+            <div class="w-3 h-3 rounded-full bg-white/50"></div>
+            <div class="w-3 h-3 rounded-full bg-white"></div>
+            <div class="w-3 h-3 rounded-full bg-white/50"></div>
+          </div>
         </div>
       </div>
       <div class="absolute inset-0 bg-center bg-cover opacity-0 transition-opacity duration-500" style="background-image:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('assets/img/hero.png')">
-        <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center">
+        <div class="relative z-10 h-full text-white max-w-[780px] mx-auto px-4 flex flex-col justify-center text-center">
           <h1 class="text-5xl md:text-6xl font-extrabold mb-3">Data-driven Farm Management</h1>
           <p class="mb-6">Optimize inputs and outcomes</p>
-          <a href="#monitor" class="inline-flex items-center rounded-full bg-brand text-white font-semibold px-5 py-3 shadow">See Platform</a>
+          <a href="#contact" class="inline-flex items-center rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-300 hover:to-orange-400 text-white font-semibold px-6 py-3 shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto">
+            <span class="mr-2">📧</span>
+            Connect Now
+          </a>
+          <!-- Hero indicator dots -->
+          <div class="flex justify-center gap-3 mt-8">
+            <div class="w-3 h-3 rounded-full bg-white/50"></div>
+            <div class="w-3 h-3 rounded-full bg-white/50"></div>
+            <div class="w-3 h-3 rounded-full bg-white"></div>
+          </div>
         </div>
       </div>
       <button class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/70 w-10 h-10 rounded-full" data-prev aria-label="Previous">‹</button>
@@ -40,8 +67,7 @@
   <section id="services" class="py-18 md:py-20">
     <div class="max-w-[1160px] mx-auto px-4">
       <div class="mb-6">
-        <h3 class="text-brand font-extrabold">Our</h3>
-        <h2 class="text-4xl font-bold">Services</h2>
+      <h2 class="text-4xl font-bold mb-6"><span class="text-brand italic font-extrabold">Our</span> Services</h2>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5" data-cards>
         <article class="bg-gray-100 rounded-2xl p-4 shadow-sm transition-transform duration-200 hover:scale-105">
@@ -108,23 +134,25 @@
         <h2 class="text-4xl font-bold mb-6"><span class="text-brand italic font-extrabold">Our</span> Impact</h2>
         <div class="space-y-8">
           <div>
-            <div class="text-2xl md:text-3xl font-bold">30% - 50%</div>
+              <div class="text-2xl md:text-3xl font-bold">
+                <span data-counter="30" data-suffix="%">0</span> - <span data-counter="50" data-suffix="%">0</span>
+              </div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Increased income of oil palm farmers</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-bold">300+</div>
+              <div class="text-2xl md:text-3xl font-bold" data-counter="300" data-suffix="+">0</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Women Empowerment</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-bold">600 Tons</div>
+              <div class="text-2xl md:text-3xl font-bold" data-counter="600" data-suffix=" Tons">0</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Potential carbon sequestration that could become future income stream for farmers</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-bold">100+ Ha</div>
+              <div class="text-2xl md:text-3xl font-bold" data-counter="100" data-suffix="+ Ha">0</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Land access provided to landless farmers</div>
           </div>
           <div>
-            <div class="text-2xl md:text-3xl font-bold">IDR 3 Billion</div>
+              <div class="text-2xl md:text-3xl font-bold" data-counter="3" data-suffix=" Billion" data-prefix="IDR ">0</div>
             <div class="text-sm md:text-base text-slate-600 font-medium">Total cost savings for oil palm landowners</div>
           </div>
         </div>
@@ -134,7 +162,6 @@
       </div>
     </div>
   </section>
-
   <!-- Since 2021 -->
   <section class="relative py-18 md:py-20 text-white overflow-hidden">
     <video class="absolute inset-0 w-full h-full object-cover" src="assets/video/backmap-1.mp4" autoplay loop muted playsinline></video>
@@ -144,19 +171,21 @@
       <h2 class="text-4xl font-bold text-center">Since 2021</h2>
       <p class="text-center text-white/90">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="my-6 text-center">
-        <img src="assets/img/map-idi.png" alt="Indonesia map" class="mx-auto max-w-full h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]" />
+        <img src="assets/img/map-idi.png" alt="Indonesia map" class="mx-auto w-[800px] h-auto drop-shadow-[0_20px_40px_rgba(0,0,0,0.45)]" />
       </div>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="text-center">
-          <div class="text-2xl font-bold">250+</div>
+          <div class="text-2xl font-bold" data-counter="250" data-suffix="+">0</div>
           <div class="text-white/90 text-sm">Small farmers</div>
         </div>
         <div class="text-center">
-          <div class="text-2xl font-bold">8,000+ ha</div>
+          <div class="text-2xl font-bold">
+            <span data-counter="8000" data-suffix="">0</span>+ ha
+          </div>
           <div class="text-white/90 text-sm">In the pipelines</div>
         </div>
         <div class="text-center">
-          <div class="text-2xl font-bold">IDR 6.2 Billions</div>
+          <div class="text-2xl font-bold" data-counter="6" data-suffix=" Billions" data-prefix="IDR ">0</div>
           <div class="text-white/90 text-sm">Total disbursement to farmers</div>
         </div>
       </div>
@@ -226,29 +255,29 @@
       <div class="grid lg:grid-cols-4 gap-6 items-start">
         <!-- Text Content - Left Side -->
         <div class="lg:col-span-1 mt-[60px]">
-          <h2 class="text-4xl font-bold">Meet Our Team</h2>
-          <p class="text-white/90 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
+        <h2 class="text-4xl font-bold">Meet Our Team</h2>
+        <p class="text-white/90 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
         
         <!-- Team Cards - Right Side (3 columns) -->
         <div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- Card 1 -->
-          <div class="text-center">
-            <img class="w-full h-72 object-cover" src="assets/img/ceo-pp.png" alt="CEO" />
-            <h4 class="mt-4 mb-0 font-semibold">Jusrian S. Orpayanda</h4>
-            <span class="block text-white/80">Chief Executive Officer</span>
-          </div>
-          <!-- Card 2 -->
-          <div class="text-center">
-            <img class="w-full h-72 object-cover" src="assets/img/coo-pp.png" alt="COO" />
-            <h4 class="mt-4 mb-0 font-semibold">Muhammad Alfian</h4>
-            <span class="block text-white/80">Chief Operating Officer</span>
-          </div>
-          <!-- Card 3 -->
-          <div class="text-center">
-            <img class="w-full h-72 object-cover" src="assets/img/cto-pp.jpg" alt="CTO" />
-            <h4 class="mt-4 mb-0 font-semibold">Robbie Shugara</h4>
-            <span class="block text-white/80">Chief Technology Officer</span>
+        <!-- Card 1 -->
+        <div class="text-center">
+              <img class="w-full h-72 object-cover" src="assets/img/ceo-pp.png" alt="CEO" />
+          <h4 class="mt-4 mb-0 font-semibold">Jusrian S. Orpayanda</h4>
+          <span class="block text-white/80">Chief Executive Officer</span>
+        </div>
+        <!-- Card 2 -->
+        <div class="text-center">
+              <img class="w-full h-72 object-cover" src="assets/img/coo-pp.png" alt="COO" />
+          <h4 class="mt-4 mb-0 font-semibold">Muhammad Alfian</h4>
+          <span class="block text-white/80">Chief Operating Officer</span>
+        </div>
+        <!-- Card 3 -->
+        <div class="text-center">
+            <img class="w-full h-72 object-cover" src="assets/img/cto.png" alt="CTO" />
+          <h4 class="mt-4 mb-0 font-semibold">Robbie Shugara</h4>
+          <span class="block text-white/80">Chief Technology Officer</span>
           </div>
         </div>
       </div>
@@ -347,7 +376,7 @@
               </div>
             </div>
           </div>
-        </div>
+      </div>
         
         <!-- Right side - Text content -->
         <div class="order-1 lg:order-2">
@@ -357,7 +386,7 @@
             <span class="mr-2">📧</span>
             Connect Now
           </a>
-        </div>
+      </div>
       </div>
     </div>
   </section>

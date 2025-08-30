@@ -11,48 +11,108 @@
 
   <!-- Apa itu ArcoMonitor -->
   <section class="py-18 md:py-20">
-    <div class="max-w-[1160px] mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
+    <div class="max-w-[1160px] mx-auto px-4 grid md:grid-cols-2 gap-10 items-start">
+      
+      <!-- Left Column: Testimonials -->
       <div>
-        <img src="assets/img/os-arcomonitor.png" alt="ArcoMonitor" class="w-full rounded-lg shadow-lg" />
+        <h2 class="text-3xl font-bold mb-4">What They Say About Us?</h2>
+        <div class="relative overflow-hidden">
+          <div class="flex gap-8 animate-scroll-x will-change-transform">
+            <!-- Testimonial 1 -->
+            <div class="bg-gray-100 rounded-2xl p-8 w-[400px] shrink-0">
+              <div class="flex items-center gap-4 mb-6">
+                <img class="w-14 h-14 rounded-full object-cover" src="assets/img/petani-pp.png" alt="Pak Johan" />
+                <div>
+                  <div class="font-semibold text-slate-800 text-lg">Pak Johan</div>
+                  <div class="text-slate-600">Lahan Seluma 1</div>
+                </div>
+              </div>
+              <blockquote class="text-xl font-semibold text-slate-800 mb-2">
+                "Alhamdulillah saya jadi kaya"
+              </blockquote>
+              <p class="text-slate-600 leading-relaxed">Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="bg-gray-100 rounded-2xl p-8 w-[400px] shrink-0">
+              <div class="flex items-center gap-4 mb-6">
+                <img class="w-14 h-14 rounded-full object-cover" src="assets/img/ceo-pp.png" alt="Ibu Siti" />
+                <div>
+                  <div class="font-semibold text-slate-800 text-lg">Ibu Siti</div>
+                  <div class="text-slate-600">Lahan Bengkulu</div>
+                </div>
+              </div>
+              <blockquote class="text-xl font-semibold text-slate-800 mb-2">
+                "Programnya sangat membantu!"
+              </blockquote>
+              <p class="text-slate-600 leading-relaxed">Praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="bg-gray-100 rounded-2xl p-8 w-[400px] shrink-0">
+              <div class="flex items-center gap-4 mb-6">
+                <img class="w-14 h-14 rounded-full object-cover" src="assets/img/coo-pp.png" alt="Bapak Budi" />
+                <div>
+                  <div class="font-semibold text-slate-800 text-lg">Bapak Budi</div>
+                  <div class="text-slate-600">Lahan Jambi</div>
+                </div>
+              </div>
+              <blockquote class="text-xl font-semibold text-slate-800 mb-2">
+                "Hasil panen saya meningkat."
+              </blockquote>
+              <p class="text-slate-600 leading-relaxed">Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at ligula reet est iaculis.</p>
+            </div>
+            <!-- Duplicates for seamless loop -->
+            <div class="bg-gray-100 rounded-2xl p-8 w-[400px] shrink-0">
+              <div class="flex items-center gap-4 mb-6">
+                <img class="w-14 h-14 rounded-full object-cover" src="assets/img/petani-pp.png" alt="Pak Johan" />
+                <div>
+                  <div class="font-semibold text-slate-800 text-lg">Pak Johan</div>
+                  <div class="text-slate-600">Lahan Seluma 1</div>
+                </div>
+              </div>
+              <blockquote class="text-xl font-semibold text-slate-800 mb-2">
+                "Alhamdulillah saya jadi kaya"
+              </blockquote>
+              <p class="text-slate-600 leading-relaxed">Lorem ipsum praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+            </div>
+            <div class="bg-gray-100 rounded-2xl p-8 w-[400px] shrink-0">
+              <div class="flex items-center gap-4 mb-6">
+                <img class="w-14 h-14 rounded-full object-cover" src="assets/img/ceo-pp.png" alt="Ibu Siti" />
+                <div>
+                  <div class="font-semibold text-slate-800 text-lg">Ibu Siti</div>
+                  <div class="text-slate-600">Lahan Bengkulu</div>
+                </div>
+              </div>
+              <blockquote class="text-xl font-semibold text-slate-800 mb-2">
+                "Programnya sangat membantu!"
+              </blockquote>
+              <p class="text-slate-600 leading-relaxed">Praesent ac massa at ligula reet est iaculis. Vivamus est mist aliquet elit ac nisl…</p>
+            </div>
+            <div class="bg-gray-100 rounded-2xl p-8 w-[400px] shrink-0">
+              <div class="flex items-center gap-4 mb-6">
+                <img class="w-14 h-14 rounded-full object-cover" src="assets/img/coo-pp.png" alt="Bapak Budi" />
+                <div>
+                  <div class="font-semibold text-slate-800 text-lg">Bapak Budi</div>
+                  <div class="text-slate-600">Lahan Jambi</div>
+                </div>
+              </div>
+              <blockquote class="text-xl font-semibold text-slate-800 mb-2">
+                "Hasil panen saya meningkat."
+              </blockquote>
+              <p class="text-slate-600 leading-relaxed">Vivamus est mist aliquet elit ac nisl. Lorem ipsum praesent ac massa at ligula reet est iaculis.</p>
+            </div>
+          </div>
+        </div>
       </div>
+
+      <!-- Right Column: Apa itu ArcoFarm -->
       <div>
-        <h2 class="text-4xl font-bold mb-4">Apa itu ArcoMonitor?</h2>
-        <p class="text-slate-600 leading-relaxed mb-4">ArcoMonitor adalah platform digital canggih yang memungkinkan petani untuk mencatat aktivitas harian, mengelola anggaran, dan melacak penggunaan input pertanian secara akurat. Ini adalah asisten pertanian pribadi Anda di saku Anda.</p>
-        <p class="text-slate-600 leading-relaxed">Dengan data yang terstruktur, ArcoMonitor membantu petani menganalisis kinerja masa lalu dan mengoptimalkan strategi penanaman di masa depan, yang mengarah pada peningkatan efisiensi dan profitabilitas.</p>
+        <h2 class="text-3xl font-bold mb-4">Apa itu ArcoFarm?</h2>
+        <div class="relative">
+            <p class="text-slate-600 leading-relaxed mb-4">ArcoFarm adalah program yang memberdayakan petani muda yang bersemangat dengan memberikan gaji, pelatihan, dan peluang bertani bebas risiko. Kami percaya pada potensi generasi baru petani untuk mendorong pertanian berkelanjutan.</p>
+            <p class="text-slate-600 leading-relaxed">Melalui ArcoFarm, kami menyediakan sumber daya dan dukungan yang dibutuhkan para petani muda untuk berhasil, menciptakan dampak positif bagi komunitas mereka dan lingkungan.</p>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <!-- Fitur Utama -->
-  <section class="py-18 md:py-20 bg-gray-50">
-    <div class="max-w-[1160px] mx-auto px-4">
-      <div class="text-center mb-10">
-        <h2 class="text-4xl font-bold">Fitur Utama</h2>
-        <p class="text-slate-600">Semua yang Anda butuhkan untuk manajemen pertanian modern.</p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-8 text-center">
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Pencatatan Aktivitas</h3>
-          <p class="text-slate-600">Catat semua aktivitas pertanian, mulai dari penanaman hingga panen, dengan mudah dan detail.</p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Manajemen Anggaran</h3>
-          <p class="text-slate-600">Lacak semua pengeluaran dan pendapatan untuk menjaga anggaran pertanian Anda tetap terkendali.</p>
-        </div>
-        <div class="p-6 bg-white rounded-lg shadow-md">
-          <h3 class="text-xl font-semibold mb-2">Analisis Data</h3>
-          <p class="text-slate-600">Dapatkan wawasan berharga dari data Anda untuk membuat keputusan yang lebih baik di musim tanam berikutnya.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Mockup Section -->
-  <section class="py-18 md:py-20">
-    <div class="max-w-[1160px] mx-auto px-4 text-center">
-      <h2 class="text-4xl font-bold mb-4">Dapat Diakses Di Mana Saja</h2>
-      <p class="text-slate-600 mb-8 max-w-2xl mx-auto">Gunakan ArcoMonitor di desktop atau perangkat seluler Anda, kapan saja, di mana saja.</p>
-      <img src="assets/img/os-arcomonitor.png" alt="ArcoMonitor Mockup" class="w-full max-w-4xl mx-auto rounded-lg shadow-2xl" />
     </div>
   </section>
 

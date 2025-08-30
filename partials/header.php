@@ -37,7 +37,7 @@
             <li><a class="hover:text-brand font-medium" href="<?=$baseUrl?>/arcomonitor.php">ArcoMonitor</a></li>
             <li><a class="hover:text-brand font-medium" href="<?=$baseUrl?>/blog.php">Blog</a></li>
           </ul>
-          <a href="#login" class="ml-2 inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold">Login</a>
+          <a href="login.php" class="ml-2 inline-flex items-center rounded-full border px-4 py-2 text-sm font-semibold">Login</a>
         </nav>
       </div>
       <nav class="md:hidden hidden border-t bg-white" data-nav>
@@ -49,7 +49,7 @@
           <a class="hover:text-brand" href="<?=$baseUrl?>/arcoland.php">ArcoLand</a>
           <a class="hover:text-brand" href="<?=$baseUrl?>/arcomonitor.php">ArcoMonitor</a>
           <a class="hover:text-brand" href="<?=$baseUrl?>/blog.php">Blog</a>
-          <a href="#login" class="inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold w-max">Login</a>
+          <a href="login.php" class="inline-flex items-center justify-center rounded-full border px-4 py-2 text-sm font-semibold w-max">Login</a>
         </div>
       </nav>
     </header>

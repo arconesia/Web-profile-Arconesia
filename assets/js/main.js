@@ -79,13 +79,90 @@
       }
     }
     
-    /* Pause animation on hover */
-    .animate-scroll-right-to-left:hover,
-    .animate-scroll-left-to-right:hover {
-      animation-play-state: paused;
-    }
+      /* Pause animation on hover */
+  .animate-scroll-right-to-left:hover,
+  .animate-scroll-left-to-right:hover {
+    animation-play-state: paused;
+  }
   `;
   document.head.appendChild(style);
+})();
+
+// Number counter animation for sections
+(function(){
+  // Function to animate counters within a specific section
+  function animateCountersInSection(section, animatedKey) {
+    if (section.getAttribute(animatedKey)) return; // Already animated
+    
+    var counters = section.querySelectorAll('[data-counter]');
+    
+    counters.forEach(function(counter) {
+      var target = parseInt(counter.getAttribute('data-counter'));
+      var suffix = counter.getAttribute('data-suffix') || '';
+      var prefix = counter.getAttribute('data-prefix') || '';
+      var duration = 2000; // 2 seconds
+      var start = 0;
+      var increment = target / (duration / 16); // 60fps
+      
+      function updateCounter() {
+        start += increment;
+        if (start < target) {
+          counter.textContent = prefix + Math.floor(start) + suffix;
+          requestAnimationFrame(updateCounter);
+        } else {
+          counter.textContent = prefix + target + suffix;
+        }
+      }
+      
+      updateCounter();
+    });
+    
+    section.setAttribute(animatedKey, 'true'); // Mark as animated
+  }
+  
+  // Find section by heading text
+  function findSectionByHeading(headingText) {
+    var sections = document.querySelectorAll('section');
+    for (var i = 0; i < sections.length; i++) {
+      var heading = sections[i].querySelector('h2');
+      if (heading && heading.textContent.includes(headingText)) {
+        return sections[i];
+      }
+    }
+    return null;
+  }
+  
+  // Intersection Observer for multiple sections
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var section = entry.target;
+        var heading = section.querySelector('h2');
+        
+        if (heading && heading.textContent.includes('Impact')) {
+          animateCountersInSection(section, 'data-impact-animated');
+        } else if (heading && heading.textContent.includes('Since 2021')) {
+          animateCountersInSection(section, 'data-since-animated');
+        }
+        
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  
+  // Wait for DOM to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    var impactSection = findSectionByHeading('Impact');
+    var sinceSection = findSectionByHeading('Since 2021');
+    
+    if (impactSection) {
+      observer.observe(impactSection);
+    }
+    
+    if (sinceSection) {
+      observer.observe(sinceSection);
+    }
+  });
 })();
 
 
